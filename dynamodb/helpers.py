@@ -199,8 +199,8 @@ else:
     smart_str = smart_bytes
     force_str = force_bytes
     # backwards compatibility for Python 2
-    smart_unicode = smart_text
-    force_unicode = force_text
+    #smart_unicode = smart_text give up python2
+    #force_unicode = force_text
 
 smart_str.__doc__ = """
 Apply smart_text in Python 3 and smart_bytes in Python 2.
